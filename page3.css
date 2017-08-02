@@ -15,7 +15,7 @@
 
 .tinyleft{
 /*background-color: skyblue;*/
-/*margin-left: 220px;*/
+margin-left: 13vw;
 width: 100%;
 }
 
@@ -39,6 +39,9 @@ background-size: cover;
 #show{
     background-color: orange;
     border-radius: 2%;
+    opacity: 0.75;
+    border-style: solid;
+    border-top: thick #000000;
 }
 
 
@@ -57,11 +60,11 @@ margin-left: 7%;
 }
 
 #one{
-    border:solid black 1px;
+    
 }
 
 #three{
-    border-top:solid black 2px;
+    
 }
 
 .navtop {
@@ -153,8 +156,7 @@ html{
 }
 
 .jumbotron.text-center{
-  background-color: skyblue;
-
+  background-color: ;
 
 }
 

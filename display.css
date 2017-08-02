@@ -1,26 +1,72 @@
 * {
     margin:0;
     padding: 0;
-
 }
 
 
 .container {
-    margin-left: 12px;
+    margin: 0;
     padding: 0;
-    background-color: ;
+    background-color: snow;
     width: 100%;
     height: 100%;
 
 }
 
-.text{
-font-family: "Courier New", Courier, monospace;
+.tinyleft{
+/*background-color: skyblue;*/
+/*margin-left: 220px;*/
+width: 100%;
+}
+
+.leftcontainer{
+/*background-color: blue;*/
+margin-left: 0px;
+}
+
+
+body{
+background-color: lightgrey;
+background-image: url("https://images.pexels.com/photos/5439/earth-space.jpg?w=1260&h=750&auto=compress&cs=tinysrgb");
+background-size: cover;
+}
+
+
+.main{
+
+}
+
+#show{
+    background-color: orange;
+    border-radius: 2%;
+}
+
+
+.container2 {
+    margin-left: 270px;
+    padding: 0;
+    background-color: ;
+    width: 400px;
+    height: 70px;
+display: block;
+}
+
+.row{
+ background-color: ;
+margin-left: 7%;
+}
+
+#one{
+    border:solid black 1px;
+}
+
+#three{
+    border-top:solid black 2px;
 }
 
 .navtop {
   width:100%;
-    height:55px;
+    height:30px;
     background-color: grey;
     position: fixed;
  list-style-type: none;
@@ -29,34 +75,6 @@ font-family: "Courier New", Courier, monospace;
     top: 0;
 border-bottom: 1px solid black;
 }
-
-.link{
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 4px;
-    text-decoration: none;
-    font-family: sans-serif
-}
-
-
-h1 {
-    color: black;
-}
-
-.rightcontainer {
-  width: 898px;
-  height: 780px;
-  /*border: 1px solid black;*/
-display: inline-block;
-background-color: ;
-float: right;
-background-image: url("http://www.mckinsey.com/~/media/McKinsey/Industries/Travel%20Transport%20and%20Logistics/Our%20Insights/Facebook%20and%20the%20future%20of%20travel/Facebook_travelV2_1536x1536_Original.ashx");
-background-size: cover;
-
-}
-
-
 
 .navbot{
 width:100%;
@@ -70,21 +88,6 @@ width:100%;
 border-top: 1px solid black;
 
 }
-
-
-
-.leftcontainer{
- width: 540px;
-  height: 800px;
-  border: 1px solid black;
-margin-left: 0px;
-display: inline-block;
-background-color: skyblue;
-float: left
-padding-top:50px;
-
-}
-
 
 #search {
     float: right;
@@ -102,6 +105,11 @@ padding-top:50px;
     line-height: 22px;
 }
 
+.text{
+    font-family:"Courier New";
+    
+}
+
     .search input {
         position: absolute;
         width: 0px;
@@ -115,7 +123,7 @@ padding-top:50px;
         line-height: 18px;
         padding: 0 2px 0 2px;
         border-radius:1px;
-        margin-left: 10px;
+        margin-right: 10px;
     }
 
         .search:hover input, .search input:focus {
@@ -124,54 +132,35 @@ padding-top:50px;
         }
 
 .btn {
-    height: 35px;
-    position: absolute ;
+    height: 30px;
+    position: absolute;
     right: 0;
     top: 5px;
-    border-radius:1px;
+    border-radius:100px;
 margin-left: 40px;
 }
 
+.text{
+    margin-left: 240px;
+}
 
+.search{
+    margin-left: 270px;
+}
 
-.container2{
-
-margin: 0;
-    padding: 0;
-    background-color: ;
-    width: 100%;
+html{
     height: 100%;
 }
 
-
-
-.tinyleft{
-  width: 85.6%;
-  height: 200px;
-  /*border: 1px solid black;*/
-  padding-top: 200px;
-  padding-left: 50px;
-  background-color: ;
-  margin-top: 120px;
-}
-
-img
-{
-/*display: inline-block;*/
-/*max-width:100%;
-max-height:100%;*/
-display: inline-block;
-margin-left: 5px;
-height: 50px;
-width: 10px;
-border-radius: 100%;
-border: 2px solid black
+.jumbotron.text-center{
+  background-color: skyblue;
 
 
 }
 
-
-
-button {
-	
+.jumbotron{
+    background-color: skyblue;
+    border:solid black 1px;
+    height: 230px;
+width: 100%;
 }
